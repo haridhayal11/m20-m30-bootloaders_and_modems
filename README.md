@@ -27,14 +27,14 @@ All the files here are pulled from official firmwares of the devices mentioned.
 
 ## Instructions:
 **1. Update via TWRP:**
-   - Download **\*\-twrp\_flashable\.zip** from [releases](https://github.com/haridhayal11/7904-bootloaders_and_modems/releases)
+   - Download **\*\-twrp\_flashable\.zip** from [releases](https://github.com/haridhayal11/m20-m30-bootloaders_and_modems/releases)
    - Boot phone in TWRP
    - Flash the downloaded zip as any other
 
 **2. Update via Odin:**
    - Download [Odin v3.14.1](https://downloads.corsicanu.ro/samsung/Odin3_v3.14.1.zip)
    - Download and install [Samsung Drivers](https://downloads.corsicanu.ro/samsung/SAMSUNG_USB_Driver_for_Mobile_Phones.zip)
-   - Download **\*\-odin\_flashable\.tar** from [releases](https://github.com/haridhayal11/7904-bootloaders_and_modems/releases)
+   - Download **\*\-odin\_flashable\.tar** from [releases](https://github.com/haridhayal11/m20-m30-bootloaders_and_modems/releases)
    - Switch off the phone
    - Use Volume Down+Home+Power to enter Download Mode
    - Open Odin and make sure that your device is detected
