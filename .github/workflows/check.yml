@@ -13,20 +13,18 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - model: "SM-A520F"
+          - model: "SM-M205F"
+            region: "INS"
+          - model: "SM-M205FN"
             region: "DBT"
-          - model: "SM-A720F"
-            region: "XSG"
-          - model: "SM-A520W"
-            region: "BMC"
-          - model: "SM-A520K"
-            region: "KTC"
-          - model: "SM-A520L"
-            region: "LUC"
-          - model: "SM-A520S"
-            region: "SKC"
-          - model: "SM-A720S"
-            region: "SKC"
+          - model: "SM-M205G"
+            region: "XXV"
+          - model: "SM-M205M"
+            region: "ZTO"
+          - model: "SM-M305F"
+            region: "INS"
+          - model: "SM-M305M"
+            region: "XXV"
 
     steps:
       - name: Checkout repo
